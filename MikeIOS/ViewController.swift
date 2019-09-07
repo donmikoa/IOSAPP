@@ -25,5 +25,10 @@ class ViewController: UIViewController {
     @IBAction func didTapViewButton(_ sender: Any) {
         view.backgroundColor = UIColor.red
     }
+    
+    
+    @IBAction func didTapTextButton(_ sender: Any) {
+        textLabel.text = "Goodbye!"
+    }
 }
 
