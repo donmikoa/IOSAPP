@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var textLabel: UILabel!
     
+    
+    @IBOutlet weak var textField: UITextField!
+    
     var backgroundColor: UIColor!
     
     override func viewDidLoad() {
@@ -33,7 +36,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func didTapTextButton(_ sender: Any) {
-        textLabel.text = "Goodbye!"
+        //textLabel.text = "Goodbye!"
+        textLabel.text = textField.text
     }
     
     
