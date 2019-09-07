@@ -38,6 +38,8 @@ class ViewController: UIViewController {
     @IBAction func didTapTextButton(_ sender: Any) {
         //textLabel.text = "Goodbye!"
         textLabel.text = textField.text
+        textField.text = ""
+        view.endEditing(true)
     }
     
     
