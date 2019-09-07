@@ -20,5 +20,10 @@ class ViewController: UIViewController {
     @IBAction func didTabButton(_ sender: Any) {
         textLabel.textColor = UIColor.orange
     }
+    
+    
+    @IBAction func didTapViewButton(_ sender: Any) {
+        view.backgroundColor = UIColor.red
+    }
 }
 
